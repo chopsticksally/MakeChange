@@ -38,49 +38,57 @@ public class MakeChangeApp {
 
 		int changeInTwenties = changeOutput / twenties;
 		changeOutput = changeOutput % twenties;
-		 System.out.println("Change: " + changeOutput + " twenties");
-		//printChange(changeInTwenties);
-
+		if (changeInTwenties != 0) {
+			System.out.println("Change: " + changeInTwenties  + " twenties");
+			// printChange(changeInTwenties);
+		}
 		int changeInTens = changeOutput / tens;
 		changeOutput = changeOutput % tens;
-		 System.out.println("Change: " + changeOutput + " tens");
-		//printChange(changeInTens);
-
+		if (changeInTens != 0) {
+			System.out.println("Change: " + changeInTens + " tens");
+			// printChange(changeInTens);
+		}
 		int changeInFives = changeOutput / fives;
 		changeOutput = changeOutput % fives;
-		System.out.println("Change: " + changeOutput + " fives");
-		//printChange(changeInFives);
-
+		if (changeInFives != 0) {
+			System.out.println("Change: " + changeInFives + " fives");
+			// printChange(changeInFives);
+		}
 		int changeInOnes = changeOutput / ones;
 		changeOutput = changeOutput % ones;
-		System.out.println("Change: " + changeOutput + " ones");
-		//printChange(changeInOnes);
-
+		if (changeInOnes != 0) {
+			System.out.println("Change: " + changeInOnes + " ones");
+			// printChange(changeInOnes);
+		}
 		int changeInQuarters = changeOutput / quarters;
 		changeOutput = changeOutput % quarters;
-		 System.out.println("Change: " + changeOutput + " quarters");
-		//printChange(changeInQuarters);
-
+		if (changeInQuarters != 0) {
+			System.out.println("Change: " + changeInQuarters + " quarters");
+			// printChange(changeInQuarters);
+		}
 		int changeInDimes = changeOutput / dimes;
 		changeOutput = changeOutput % dimes;
-		 System.out.println("Change: " + changeOutput + " dimes");
-		//printChange(changeInDimes);
-
+		if (changeInDimes != 0) {
+			System.out.println("Change: " + changeInDimes + " dimes");
+			// printChange(changeInDimes);
+		}
 		int changeInNickels = changeOutput / nickels;
 		changeOutput = changeOutput % nickels;
-		System.out.println("Change: " + changeOutput + " nickels");
-		//printChange(changeInNickels);
-
+		if (changeInNickels != 0) {
+			System.out.println("Change: " + changeInNickels + " nickels");
+			// printChange(changeInNickels);
+		}
 		int changeInPennies = changeOutput / pennies;
 		changeOutput = changeOutput % pennies;
-		System.out.println("Change: " + changeOutput + " pennies");
-		//printChange(changeInPennies);
-
+		if (changeInPennies != 0) {
+			System.out.println("Change: " + changeInPennies + " pennies");
+			// printChange(changeInPennies);
+		}
 	}
 
-	//public static void printChange(int change) {
-		//int changeOutput = (int) (change * 100);
+	// public static void printChange(int change) {
+	// int changeOutput = (int) (change * 100);
 
-		//System.out.println("Change: " + changeOutput);
-	}
-//}
+	// System.out.println("Change: " + changeOutput);
+}
+// }
